@@ -433,6 +433,7 @@ color: #999;
       }
    }
    .tabs {
+      width: 100%;
       margin-top: 80px;
       .project-tab-links {
          .tab-links {
@@ -485,6 +486,7 @@ color: #999;
    }
    .section-2 {
       margin-top: 144px;
+      width: 100%;
       .container-fluid {
          .section-content {
             h3 {
@@ -545,7 +547,7 @@ color: #999;
    .section-3 {
       width: 100%;
       margin: 227px 0 190px 0;
-      background: #191919;
+      background: #fff;
       padding-bottom: 200px;
       .container-fluid {  
          padding: 10px;
@@ -608,6 +610,9 @@ color: #b0b0b0;
             }
          }
       }
+   }
+   .black-mode{
+      background: #191919;
    }
    .footer-black{
       background: #fff !important;
@@ -981,6 +986,23 @@ color: #b0b0b0;
                a {
                   font-size: 21px;
                   line-height: 16px;
+               }
+            }
+         }
+      }
+      .section-2-1{
+         .container-fluid{
+            .row{
+               .col-12{
+                  h2{
+                     font-size: 56px;
+                  }
+                  
+               .card{.card-body{
+                  h3{
+                     font-size: 95px;
+                  }
+               }}
                }
             }
          }
