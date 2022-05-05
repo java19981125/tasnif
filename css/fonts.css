@@ -1,4 +1,9 @@
 @font-face{
+  font-family: 'aeonic';
+  src: url('../fonts/Aeonik-Thin.otf') format('opentype');
+  font-weight: 250;
+}
+@font-face{
    font-family: 'aeonic';
    src: url('../fonts/Aeonik-Regular.otf') format('opentype');
    font-weight: 400;
